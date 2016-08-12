@@ -5,8 +5,8 @@
  */
 package controlador;
 
-import DTO.Usuario;
-import Repositorios.RegistroRepositorio;
+import DTO.Reserva;
+import Repositorios.ReservarRepositorio;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Level;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Usuario
  */
-public class Registro1 extends HttpServlet {
+public class Reservar extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,7 +35,6 @@ public class Registro1 extends HttpServlet {
             throws ServletException, IOException {
         
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -60,22 +59,20 @@ public class Registro1 extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
+    
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-                String nombre=request.getParameter("nombre");
-                String apellido=request.getParameter("apellidoPaterno")+" "+request.getParameter("apellidoMaterno");
-                int telefono=Integer.parseInt(request.getParameter("telefono"));
-                int id=Integer.parseInt(request.getParameter("identificacion"));
-                String correo=request.getParameter("mail");
-                String contraseña=request.getParameter("contrasena");
-                System.out.println(contraseña);
-                Usuario usr=new Usuario(nombre, apellido, telefono, id,correo,contraseña);
-                RegistroRepositorio registro=new RegistroRepositorio();
-            try {
-                registro.agregar(usr);
-            } catch (Exception ex) {
-
-            }
+                String codigo=request.getParameter("codigo");
+                int camas=Integer.parseInt(request.getParameter("camas"));
+                String fechaEntrada=request.getParameter("fechaEntrada");
+                String fechaSalida=request.getParameter("fechaSalida");
+                Reserva usr=new  Reserva(codigo, camas, fechaEntrada, fechaSalida);
+                ReservarRepositorio reserva=new ReservarRepositorio();
+        try {
+            reserva.agregar(usr);
+        } catch (Exception ex) {
+            
+        }
     }
 
     /**
@@ -87,5 +84,4 @@ public class Registro1 extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

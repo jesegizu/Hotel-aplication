@@ -5,7 +5,7 @@
         <title>Registro</title>
         <link rel="stylesheet" type="text/css" href="Css/Style.css"  />
         <link rel="stylesheet" type="text/css" href="Css/registro.css"  />
-        <script src="js/registro.js" type="text/javascript"></script>
+        <!--<script src="js/registro.js" type="text/javascript"></script>-->
     </head>
     <body>
         <%@ include file="header.jsp"%>
@@ -24,7 +24,7 @@
                                    /></td>
                         <td>Telefono:</td>
                         <td class="rojo">*</td>
-                        <td><input type="tel" name="telefono" id="telefono" required placeholder="Escriba su telefono"/></td>
+                        <td><input type="text" name="telefono" id="telefono" required placeholder="Escriba su telefono"/></td>
                       </tr>
                       <tr>
                         <td>Apellido Primero</td>
