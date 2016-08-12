@@ -6,12 +6,12 @@
     <link rel="stylesheet" type="text/css" href="css/Style.css"  />
     <link rel="stylesheet" type="text/css" href="css/carrito.css"  />
     <script>
-    window.onload = function(){
-            var envia = document.getElementById("pagar");
-            envia.onclick = function(){
-                    location.href = "mensaje.html";
-            };
-    };
+        window.onload = function(){
+                var envia = document.getElementById("pagar");
+                envia.onclick = function(){
+                        location.href = ("mensaje.html");
+                };
+        };
     </script>
     </head>
     <body>
@@ -19,13 +19,13 @@
         <section>
             <div id="ca-content">
                <div id="ca-datos">
-               <p>Métodos de pago: Pay Pal</p>
+               <p>Metodos de pago: Pay Pal</p>
                <p>Nombre: xxxxxx xxxxxx xxxxxxx xxxxxxxx</p>
                <p>Empresa: xxxxxx xxxxxx xxxxxxx xxxxxxxx</p>
-               <p>Dirección: xxxxxx xxxxxx xxxxxxx xxxxxxxx</p>
-               <p>Código Postal: xxxxxx </p>
+               <p>Direcci�n: xxxxxx xxxxxx xxxxxxx xxxxxxxx</p>
+               <p>Codigo Postal: xxxxxx </p>
                </div> 
-               <div class="pasos"><p>1.- Iniciar sesión > 2.- Datos de envío > 3.- Forma de pago > <span class="rojo">4.- Revisar</span></p></div> 
+               <div class="pasos"><p>1.- Iniciar sesi�n > 2.- Datos de reserva > 3.- Forma de pago > <span class="rojo">4.- Revisar</span></p></div> 
               <div id="ca-detalle">
                 <table width="100%">
                         <tr>
@@ -63,7 +63,7 @@
                   </tr>
                         <tr>
                           <td></td>
-                          <td class="ca-precio">Costo de envío:</td>
+                          <td class="ca-precio">Costo de envio:</td>
                           <td class="ca-precio"> $0.00</td>
                   </tr>
                   <tr>

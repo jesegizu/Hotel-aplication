@@ -4,9 +4,41 @@
         <servlet-name>Registro1</servlet-name>
         <servlet-class>controlador.Registro1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Reserva</servlet-name>
+        <servlet-class>DTO.Reserva</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Reservar</servlet-name>
+        <servlet-class>controlador.Reservar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReservarRepositorio</servlet-name>
+        <servlet-class>Repositorios.ReservarRepositorio</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SeccionControlador</servlet-name>
+        <servlet-class>controlador.SeccionControlador</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Registro1</servlet-name>
         <url-pattern>/Registro1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Reserva</servlet-name>
+        <url-pattern>/Reserva</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Reservar</servlet-name>
+        <url-pattern>/Reservar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReservarRepositorio</servlet-name>
+        <url-pattern>/ReservarRepositorio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SeccionControlador</servlet-name>
+        <url-pattern>/SeccionControlador</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

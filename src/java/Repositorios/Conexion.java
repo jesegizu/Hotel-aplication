@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  */
 public class Conexion {
     Connection co;    
-    String bd = "hotel_application";
+    String bd = "hotel_Application";
     String login = "root";
     String password = "root";
     String url = "jdbc:mysql://localhost/"+bd;

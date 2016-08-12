@@ -12,7 +12,7 @@
                 <article>
                 <div id="lo-titulo"><h1>Iniciar sesión</h1></div>
                 <div id="lo-forma">
-                    <form id="lo-login">
+                    <form id="lo-login" action="SeccionControlador" method="post" >
                       <table width="100%" border="0" cellspacing="10">
                         <tr>
                           <td class="der">Tu correo electronico:</td>
@@ -28,7 +28,7 @@
                         </tr>
                         <tr>
                           <td>&nbsp;</td>
-                          <td><button id="envia" class="botonRojo">Iniciar sesión &gt;</button></td>
+                          <td><input type="submit" name="envia" id="envia" value="Inicio de Sección &gt;"/></td>
                         </tr>
                         <tr>
                           <td>&nbsp;</td>
