@@ -4,9 +4,17 @@
         <servlet-name>Registro1</servlet-name>
         <servlet-class>controlador.Registro1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NotificacionesServlet</servlet-name>
+        <servlet-class>controlador.NotificacionesServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Registro1</servlet-name>
         <url-pattern>/Registro1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NotificacionesServlet</servlet-name>
+        <url-pattern>/NotificacionesServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

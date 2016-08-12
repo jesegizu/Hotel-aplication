@@ -32,6 +32,10 @@
                         <ul class="Menu" >
                             <li><a href="#">Soporte</a></li>
                             <li><a href="#">Información</a></li>
+                            <li><form action="/Hotel-aplication/NotificacionesServlet">
+                                    <input style="background:rgba(0,0,0,0); border:none; color: white;" type="submit" value="Notificacion de eventos"> 
+                                </form>
+                            </li>
                             <li><a href="#">Politicas Devolución</a></li>
                             <li><a href="#">FQA</a></li>
                             <li><a href="#">Envíanos un mail</a></li>

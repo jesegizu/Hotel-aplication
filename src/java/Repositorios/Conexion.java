@@ -27,7 +27,7 @@ public class Conexion {
              Logger.getLogger(Conexion.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    Connection ObtenerConexion() {
+    public Connection ObtenerConexion() {
         return this.co;
     }
 }
