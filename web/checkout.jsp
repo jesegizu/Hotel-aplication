@@ -11,7 +11,7 @@
         <%@ include file="header.jsp"%>
         <section>
             <article>
-                <div class="pasos"><p><span class="rojo">1.- Iniciar sesión </span>> 2.- Datos de envio > 3.- Forma de pago > 4.- Revisar</p></div>
+                <div class="pasos"><p><span class="rojo">1.- Iniciar sesión </span>> 2.- Datos de reserva > 3.- Forma de pago > 4.- Revisar</p></div>
                 <div id="lo-titulo"><h1>Iniciar sesión</h1></div>
                 <div id="lo-forma">
                     <form id="lo-login">

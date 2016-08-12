@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Mateo Ortiz Cano
+ * @autho EJJJ
  */
 public class Conexion {
     Connection co;    

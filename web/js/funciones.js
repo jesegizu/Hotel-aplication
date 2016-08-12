@@ -1,9 +1,10 @@
+//var fecha = new.date();
 function fechaHoy(){
 //ArregloD
 	var dias = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
 	var meses = new Array("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre");
 	//Manejo de fechas
-	//var fecha = new.date(); 
+	 
 	//dia de la semana
 	var dia = fecha.getDay();
 	//dia del mes

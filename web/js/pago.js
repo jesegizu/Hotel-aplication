@@ -1,10 +1,11 @@
-var tarjeta1, tarjeta2, tarjeta3, paypal, efectivo;    
+var tarjeta1, tarjeta2, tarjeta3, paypal, efectivo, envia;    
     window.onload = function(){
         tarjeta1 = document.getElementById('tarjeta1');
         tarjeta2 = document.getElementById('tarjeta2');
         tarjeta3 = document.getElementById('tarjeta3');
         paypal = document.getElementById('paypal');
         efectivo = document.getElementById('efectivo');
+        envia = document.getElementById('envia');
         envia.onclick = function(){
             var valor1 = tarjeta1.value;
             var valor2 = tarjeta2.value;

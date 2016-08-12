@@ -28,7 +28,7 @@
                         </tr>
                         <tr>
                           <td>&nbsp;</td>
-                          <td><button id="envia" class="botonRojo"><a href="index.jsp">Iniciar sesión &gt;</a></button></td>
+                          <td><button id="envia" class="botonRojo">Iniciar sesión &gt;</button></td>
                         </tr>
                         <tr>
                           <td>&nbsp;</td>

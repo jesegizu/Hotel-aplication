@@ -15,7 +15,7 @@
               </div>
                 <p>Favor de capturar los datos para continuar con su compra:</p>
                 <p>&nbsp;</p>
-                <form id="ru-formulario" action="Registro1" method="post" onsubmit="registro()">
+                <form id="ru-formulario" action="Registro1" method="post">
                     <table width="100%" border="0">
                       <tr>
                         <td>Nombre:</td>
@@ -24,11 +24,10 @@
                                    /></td>
                         <td>Telefono:</td>
                         <td class="rojo">*</td>
-                        <td><input type="number" name="telefono" id="telefono" required placeholder="Escriba su telefono"
-                                   /></td>
+                        <td><input type="tel" name="telefono" id="telefono" required placeholder="Escriba su telefono"/></td>
                       </tr>
                       <tr>
-                        <td>Apellido paterno:</td>
+                        <td>Apellido Primero</td>
                         <td class="rojo">*</td>
                         <td><input type="text" name="apellidoPaterno" id="apellidoPaterno" required placeholder="Apellido paterno"
                                    /></td>
@@ -38,7 +37,7 @@
                                    /></td>
                       </tr>
                       <tr>
-                        <td>Apellido materno:</td>
+                        <td>Apellido Segundo:</td>
                         <td class="rojo">&nbsp;</td>
                         <td><input type="text" name="apellidoMaterno" id="apellidoMaterno" placeholder="Apellido Materno"
                                    /></td>
@@ -52,16 +51,15 @@
                                    /></td>
                         <td>Contraseña:</td>
                         <td class="rojo">*</td>
-                        <td><input type="password" name="contrasena" id="contrasena" required placeholder="Clave secreta" 
-                                   /></td>
+                        <td><input type="password" name="contrasena" id="contrasena" required placeholder="Clave secreta" min="4" max="24"/></td>
                       <tr>
-                        <td>Identificació:</td>
+                        <td>Identificación:</td>
                         <td class="rojo">*</td>
                         <td><input type="text" name="identificacion" id="ciudad" required placeholder="Escriba su identificacion" 
                                    /></td>
                         <td>Confirma contraseña:</td>
                         <td class="rojo">*</td>
-                        <td><input type="password" name="contrasena2" id="contrasena2" required placeholder="Confirme su clave" /></td>
+                        <td><input type="password" name="contrasena2" id="contrasena2" required placeholder="Confirme su clave"  min="4" max="24"/></td>
                       </tr>
                       <tr>
                         <td colspan="6">&nbsp;</td>
