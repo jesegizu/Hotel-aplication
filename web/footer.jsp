@@ -24,19 +24,15 @@
                             <li><a href="#">Equipo de Trabajo</a></li>
                             <li><a href="#">Socios</a></li>
                             <li><a href="#">Empresas Afiliadas</a></li>
-                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Politica de Privacidad</a></li>
                         </ul>
                     </div>
                     <div class="columna">
                         <div class="columnaTitulo">Servicios</div>
                         <ul class="Menu" >
                             <li><a href="#">Soporte</a></li>
-                            <li><a href="#">Información</a></li>
-                            <li><form action="/Hotel-aplication/NotificacionesServlet">
-                                    <input style="background:rgba(0,0,0,0); border:none; color: white;" type="submit" value="Notificacion de eventos"> 
-                                </form>
-                            </li>
-                            <li><a href="#">Politicas Devolución</a></li>
+                            <li><a href="#">Informacion</a></li>
+                            <li><a href="#">Politicas Devolucion</a></li>
                             <li><a href="#">FQA</a></li>
                             <li><a href="#">Envíanos un mail</a></li>
                         </ul>
